@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ATVD Final - CRUDS</title>
+</head>
+<body>
+    <!-- Questão 1 - Cadastro de alunos -->
+    <div id="atvd1">
+        <h1>Alunos</h1>
+        <form id="form-alunos">
+            <input type="text" name="nome" placeholder="Nome do aluno" id="nome" required >
+            <input type="number" name="idade" placeholder="Idade do aluno" id="idade" required>
+            <input type="text" name="curso" placeholder="Curso do aluno" id="curso" required>
+            <input type="text" name="turma" placeholder="Turma do aluno" id="turma" required>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <table id="tabelaAlunos">
+            <thead>
+            <tr>
+                <th>nome</th>
+                <th>idade</th>
+                <th>curso</th>
+                <th>turma</th>
+                <th>ações</th>
+            </tr>
+            </thead>
+            <tbody>
+    
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Questão 2 - Controle de estoque -->
+    <div id="atvd1">
+        <h1>Controle de estoque</h1>
+        <form id="form-estoque">
+            <input type="text" name="nome" placeholder="Nome do Produto" id="nomeProduto" required >
+            <input type="texto" name="preco" placeholder="Preço do produto" id="preco" required>
+            <input type="text" name="Quantidade" placeholder="Quantidade do Produto" id="quantidade" required>
+            <input type="text" name="Categoria" placeholder="Categoria do Produto" id="categoria" required>
+            <button type="submit">Enviar</button>
+        </form>
+
+        <table id="tabelaProdutos">
+            <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Preço</th>
+                <th>Quantidade</th>
+                <th>categoria</th>
+                <th>ações</th>
+            </tr>
+            </thead>
+            <tbody>
+    
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Questão 3 - Catálogo de Filmes -->
+    <div id="atvd1">
+        <h1>Catálogo de Filmes</h1>
+        <form id="form-filmes">
+            <input type="text" id="tituloFilme" placeholder="Título" required>
+            <input type="number" id="anoFilme" placeholder="Ano" required>
+            <input type="text" id="generoFilme" placeholder="Gênero" required>
+            <input type="number" step="0.1" id="notaFilme" placeholder="Nota" required>
+            <button type="submit">Enviar</button>
+        </form>
+        <table id="tabelaFilmes">
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Ano</th>
+                    <th>Gênero</th>
+                    <th>Nota</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <!-- Questão 4 - Lista de Tarefas -->
+    <div id="atvd1">
+        <h1>Lista de Tarefas</h1>
+        <form id="form-tarefas">
+            <input type="text" id="tituloTarefa" placeholder="Título" required>
+            <input type="text" id="descricaoTarefa" placeholder="Descrição" required>
+            <button type="submit">Enviar</button>
+        </form>
+        <table id="tabelaTarefas">
+            <thead>
+                <tr>
+                    <th>Título</th>
+                    <th>Descrição</th>
+                    <th>Status</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <!-- Questão 5 - Cadastro de Funcionários -->
+    <div id="atvd1">
+        <h1>Cadastro de Funcionários</h1>
+        <form id="form-funcionarios">
+            <input type="text" id="nomeFuncionario" placeholder="Nome" required>
+            <input type="text" id="cargoFuncionario" placeholder="Cargo" required>
+            <input type="number" step="0.01" id="salarioFuncionario" placeholder="Salário" required>
+            <input type="text" id="setorFuncionario" placeholder="Setor" required>
+            <button type="submit">Enviar</button>
+        </form>
+        <table id="tabelaFuncionarios">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Cargo</th>
+                    <th>Salário</th>
+                    <th>Setor</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <!-- Questão 6 - Cardápio de Restaurante -->
+    <div id="atvd1">
+        <h1>Cardápio de Restaurante</h1>
+        <form id="form-cardapio">
+            <input type="text" id="nomePrato" placeholder="Nome do Prato" required>
+            <input type="number" step="0.01" id="precoPrato" placeholder="Preço" required>
+            <input type="text" id="tipoPrato" placeholder="Tipo" required>
+            <button type="submit">Enviar</button>
+        </form>
+        <table id="tabelaCardapio">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Preço</th>
+                    <th>Tipo</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <!-- Questão 7 - Sistema de Reservas de Viagem -->
+    <div id="atvd1">
+        <h1>Sistema de Reservas de Viagem</h1>
+        <form id="form-reservas">
+            <input type="text" id="nomeCliente" placeholder="Nome do Cliente" required>
+            <input type="text" id="destinoReserva" placeholder="Destino" required>
+            <input type="date" id="dataReserva" required>
+            <input type="number" id="pessoasReserva" placeholder="Nº de Pessoas" required>
+            <button type="submit">Enviar</button>
+        </form>
+        <table id="tabelaReservas">
+            <thead>
+                <tr>
+                    <th>Cliente</th>
+                    <th>Destino</th>
+                    <th>Data</th>
+                    <th>Pessoas</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <!-- Questão 8 - Cadastro de Pets -->
+    <div id="atvd1">
+        <h1>Cadastro de Pets</h1>
+        <form id="form-pets">
+            <input type="text" id="nomePet" placeholder="Nome" required>
+            <input type="text" id="especiePet" placeholder="Espécie" required>
+            <input type="text" id="racaPet" placeholder="Raça" required>
+            <input type="number" id="idadePet" placeholder="Idade" required>
+            <button type="submit">Enviar</button>
+        </form>
+        <table id="tabelaPets">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Espécie</th>
+                    <th>Raça</th>
+                    <th>Idade</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <!-- Questão 9 - Gerenciador de Jogos -->
+    <div id="atvd1">
+        <h1>Gerenciador de Jogos</h1>
+        <form id="form-jogos">
+            <input type="text" id="nomeJogo" placeholder="Nome" required>
+            <input type="text" id="plataformaJogo" placeholder="Plataforma" required>
+            <input type="number" id="anoJogo" placeholder="Ano" required>
+            <input type="text" id="generoJogo" placeholder="Gênero" required>
+            <button type="submit">Enviar</button>
+        </form>
+        <table id="tabelaJogos">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Plataforma</th>
+                    <th>Ano</th>
+                    <th>Gênero</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>  
+    <script src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+# Dependências Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Banco de dados SQLite
+db/*.db
+db/*.sqlite
+db/*.sqlite3
+db/*.db-journal
+
+# Logs
+*.log
+logs
+*.tmp
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ambiente
+.env
+
+# Build / Cache
+dist/
+.cache/
